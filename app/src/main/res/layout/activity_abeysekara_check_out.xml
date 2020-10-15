@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    tools:context=".AbeysekaraCheckOutActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/shamindaPaymentOption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/paymentOption"
+        android:textSize="18sp"
+        style="@style/head_line_text_style"/>
+
+    <RadioGroup
+        android:id="@+id/shamindaPaySelection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/shamindaRadioCash"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/shamindaRadioCash"
+            app:layout_constraintTop_toBottomOf="@+id/shamindaPaymentOption"
+            style="@style/sub_text_style"/>
+
+        <RadioButton
+            android:id="@+id/shamindaRadioCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hamindaRadioCard"
+            app:layout_constraintTop_toBottomOf="@+id/shamindaPaymentOption"
+            style="@style/sub_text_style"/>
+
+        <RadioButton
+            android:id="@+id/shamindaRadioCredit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/shamindaRadioCredit"
+            app:layout_constraintTop_toBottomOf="@+id/shamindaPaymentOption"
+            style="@style/sub_text_style"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/shamindaPaymentBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/shamindapaymentBtn"
+                style="@style/btn_text_style"/>
+        </LinearLayout>
+    </RadioGroup>
+
+
+</LinearLayout>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">LeaseOrRentHome Inc.</string>
+    <string name="todo">TODO</string>
+    <string name="button">Entrer</string>
+    <string name="textview">Types de maison:</string>
+    <string name="Apartment">Appartement</string>
+    <string name="DetHome">Maison individuelle</string>
+    <string name="semiDetHome">Maison jumelée</string>
+    <string name="condoHome">Appartement en copropriété</string>
+    <string name="townHouse">Maison de ville</string>
+    <string name="homeTextView">homeTextView</string>
+    <string name="checkoutbtn">Procéder au paiement</string>
+    <string name="paymentOption">Modalité de paiement</string>
+    <string name="shamindaRadioCredit">Crédit</string>
+    <string name="hamindaRadioCard">Carte</string>
+    <string name="shamindaRadioCash">En espèces</string>
+    <string name="shamindapaymentBtn">Payez maintenant</string>
+    <string name="shamindaCrDes">Détails de la carte de crédit / débit</string>
+    <string name="cardHolderName">Nom</string>
+    <string name="shamindaAmount">Montante</string>
+    <string name="_0000_0000_0000_0000">0000 0000 0000 0000</string>
+    <string name="amount">$</string>
+    <string name="cvc">CVC</string>
+    <string name="creditCartPayment">Confirmer le paiement</string>
+    <string name="mm_yy">MM/YY</string>
+    <string name="favoriteCountryName">Quel est le nom de votre pays préféré</string>
+
+</resources>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AbeysekaraCreditCardActivity">
+
+    <TextView
+        android:id="@+id/shamindaCrDes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="23dp"
+        android:text="@string/shamindaCrDes"
+        android:textAlignment="center"
+        style="@style/head_line_text_style"/>
+
+    <EditText
+        android:id="@+id/shamindaCardHolderName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="51dp"
+        android:layout_marginEnd="-1dp"
+        android:autofillHints="Name"
+        android:hint="@string/cardHolderName"
+        android:inputType="" />
+
+    <EditText
+        android:id="@+id/shamindaCardHolderNumber"
+        android:layout_width="269dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="138dp"
+        android:autofillHints="0000 0000 0000 0000"
+        android:hint="@string/_0000_0000_0000_0000"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/shamindaCardHolderCvc"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="296dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="19dp"
+        android:autofillHints="000"
+        android:hint="@string/cvc"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/shamindaCardHolderAmount"
+        android:layout_width="182dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="214dp"
+        android:layout_marginTop="172dp"
+        android:layout_marginEnd="15dp"
+        android:autofillHints="000"
+        android:hint="@string/amount"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/shamindaCreditCardPayment"
+        style="@style/btn_text_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="315dp"
+        android:text="@string/creditCartPayment" />
+
+    <EditText
+        android:id="@+id/shamindaCardExDate"
+        android:layout_width="103dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="173dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/mm_yy"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/shamindaFavoriteCountry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="256dp"
+        android:layout_marginEnd="-3dp"
+        android:autofillHints="What Is Your Favorite Country?"
+        android:inputType=""
+        android:hint="@string/favoriteCountryName"/>
+
+
+</RelativeLayout>

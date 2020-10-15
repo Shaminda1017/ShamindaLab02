@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--ShamindaAbeysekara_301056885_Sec002 -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/shamindaItem1"
+        android:title="Apartment"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/shamindaItem2"
+        android:title="Detached Home"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/shamindaItem3"
+        android:title="Semi-Detached Home"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/shamindaItem4"
+        android:title="Condominium Apartment"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/shamindaItem5"
+        android:title="Town House"
+        app:showAsAction="ifRoom"/>
+
+
+</menu>
